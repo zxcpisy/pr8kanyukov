@@ -15,7 +15,6 @@
 
             <Button x:Name="UpdateButton"
                 Grid.Row="0"
-                Background="Pink"
                 Content="Обновить данные о погоде" 
                 Height="35" 
                 FontSize="14"
@@ -24,7 +23,6 @@
             <GroupBox Grid.Row="1" Padding="10">
                 <DataGrid x:Name="WeatherDataGrid"  
                       IsReadOnly="True"
-                      Background="Pink"
                       GridLinesVisibility="All"
                       HeadersVisibility="All">
                     <DataGrid.Columns>
